@@ -1,0 +1,19 @@
+# restic repository structure
+config
+data/
+index/
+keys/
+locks/
+snapshots/
+tmp/
+
+# ignore .env for restic
+.env
+.auto-complete
+
+# par2 path
+parity/
+par2/
+
+# par2 recovered files
+*.1
