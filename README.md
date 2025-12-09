@@ -27,9 +27,9 @@ git checkout main
 ```
 
 ```sh
-./create-parity.sh
+VERIFY=true ./restic-parity.sh
 
-du -hs data par2
+du -sh data par2
 ```
 
 Clean
