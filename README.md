@@ -7,15 +7,17 @@ Insert useful repo information here.
 Create new local `restic` repo and then add parity using the following:
 
 ```sh
-cp .env-example .env
+cp restic.env.example restic.env
 
 # modify the env with your password or AWS vars
-. .env
+. restic.env
 ```
 
 ```sh
-restic init
+restic init -r .
 ```
+
+Add scripts to existing restic repo
 
 ```sh
 git init
@@ -28,4 +30,10 @@ git checkout main
 ./create-parity.sh
 
 du -hs data par2
+```
+
+Clean
+
+```sh
+git clean -dxf
 ```

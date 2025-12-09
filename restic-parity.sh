@@ -2,8 +2,10 @@
 # set -x
 # DEBUG=true
 
+which par2 || exit 1
+
 # path to par2
-PAR2_DIR=par2
+PAR2_DIR=${PAR2_DIR:-par2}
 
 # percentage redundancy desired
 PERCENT=5

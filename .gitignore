@@ -7,9 +7,9 @@ locks/
 snapshots/
 tmp/
 
-# ignore .env for restic
-.env
-.auto-complete
+# ignores for restic
+restic.env
+restic.exclude
 
 # par2 path
 parity/
