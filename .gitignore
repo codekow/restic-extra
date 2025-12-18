@@ -5,9 +5,10 @@ index/
 keys/
 locks/
 snapshots/
+
 tmp/
 
-# ignores for restic
+# ignores for restic backup
 restic.env
 restic.exclude
 
