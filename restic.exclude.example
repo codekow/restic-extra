@@ -18,3 +18,4 @@ cache
 venv
 
 .local/share/containers/*
+.local/share/Trash/*
