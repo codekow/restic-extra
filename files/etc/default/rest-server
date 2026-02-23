@@ -1,0 +1,3 @@
+RESTIC_ADDR=":8000"
+HTPASSWD="./htpasswd"
+RESTIC_OPTS="--private-repos"
